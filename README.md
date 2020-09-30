@@ -12,17 +12,17 @@ a5m2 を開く。
 
 サイドバーから「データベース」を右クリックして、メニューから「データベースの追加と削除」を選択する。
 
-![](./add_remove_database.a5m2.png)
+![データベースの追加と削除](./add_remove_database.a5m2.png)
 
 「データベースの追加と削除」ウィンドウが開いたら、「追加」ボタンをクリック。
 
-![](./add_db_button.a5m2.png)
+![データベースの追加ボタン](./add_db_button.a5m2.png)
 
 「接続タイプの選択」ウィンドウでは、「Microsoft SQL Server」を選択。
 
 接続設定には以下のように環境に合わせて値を登録していく。
 
-![](./registerd_db_settings.a5m2.png)
+![DB 接続設定の登録](./registerd_db_settings.a5m2.png)
 
 接続設定例:
 ```yaml
@@ -37,14 +37,14 @@ a5m2 を開く。
 
 設定値があっているか一度、「テスト接続」ボタンを押す。うまく接続できれば、「接続に成功しました」ダイアログが表示される。
 
-![](./success_to_connect.a5m2.png)
+![接続テスト結果](./success_to_connect.a5m2.png)
 
-## 接続設定の追加
-開いた SQL Server ペインから + Add Connection をクリックする。
+リネームで DB の接続設定の名前を変えることもできる。以下の例では、「192.168.99.100」か「192.168.99.100/SQL Server」に変更している。
 
-コマンドパレットが開き、接続設定の入力を求められるので、各設定項目を順番に入力していく。
+![DB 別名の変更](./rename_db_name.a5m2.png)
 
+これで SQL Server に接続して、テーブルのレコードを見れるようになった。
 
-## テーブルのレコードを見る
-左部ペインから対象のテーブルを右クリックすると以下のイメージの通り「Select Top 1000」と表示される
-![](./connected_with_mssql.png)
+おわり。
+
+![テーブルレコードの表示](./show_table_records.a5m2.png)
