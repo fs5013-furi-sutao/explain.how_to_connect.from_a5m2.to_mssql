@@ -7,7 +7,7 @@ SQL Server を手軽に試したい場合は、以下の手順で DB コンテ�
 SQL Server コンテナの docker-compose 構成サンプル:  
 https://github.com/fs5013-furi-sutao/mssql.server.linux
 
-## SQL Server (mssql) 拡張のインストー
+## 接続設定手順
 a5m2 を開く。
 
 サイドバーから「データベース」を右クリックして、メニューから「データベースの追加と削除」を選択する。
